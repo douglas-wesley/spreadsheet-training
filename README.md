@@ -6,7 +6,7 @@ Este projeto é um treinamento prático para registro e análise de dados de tre
 
 ## Funcionalidades
 * **Manipulação de Dados**: Importação, visualização e limpeza de dados de uma planilha de treino.
-* **Análise Exploratória**: Extração de métricas como volume total de treino, cargas máximas e número de repetições por exercício.
+* **Análise Exploratória**: Extração de métricas como volume total de treino, cargas máximas por exercício, etc.
 * **Visualização Simples**: Exibição de dados de forma tabular para fácil compreensão.
 
 ## Instalação
@@ -14,19 +14,28 @@ Para utilizar este projeto, é necessário ter o Python e o Jupyter instalados. 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/douglas-wesley/spreadsheet-training.git](https://github.com/douglas-wesley/spreadsheet-training.git)
+    git clone https://github.com/douglas-wesley/spreadsheet-training.git
     cd spreadsheet-training
     ```
 
 2.  **Instale as dependências:**
     ```bash
     pip install pandas
-    pip install jupyter
+    pip install jupyterlab
     ```
 
 ## Uso
 1.  **Inicie o Jupyter Notebook na pasta do projeto:**
     ```bash
-    jupyter notebook
+    jupyter-lab
     ```
 2.  **Abra o arquivo `planilha_treino.ipynb`** e execute as células do notebook para seguir o fluxo de análise e manipulação dos dados.
+
+## Futuras Adições
+- [ ] Adicionar Views e Interface Gráfica 
+- [ ] Otimizar os Filtros
+- [ ] Criar validações de dados melhores
+- [ ] Definir outros formatos de Exportação (Excel, PDF, etc) 
+
+## Contribuindo
+Sinta-se à vontade para contribuir! Faça um fork do projeto, implemente melhorias e envie um pull request.
